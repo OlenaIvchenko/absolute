@@ -1,11 +1,162 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
+.header, .main {
+   font-family: 'Poppins', sans-serif;
+}
+
+.accounts-title {
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+padding: 80px 0px 53px 172px;
+}
+
+.accounts-list {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 74px 177px;
+}
+
+.acconts-list__element {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 30px;
+}
+
+.acconts-list__element__img {
+    padding-bottom: 10px;
+}
+
+.acconts-list__element__name{
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+text-align: center;
+color: #1F6A61;
+}
+
+.acconts-list__element__online-options {
+    position: absolute;
+}
+
+.acconts-list__element__icons {
+    position: relative;
+    right: -55px;
+    top: 60px;
+}
+
+.meeting-wrapper {
+    padding: 80px 0px 48px 172px;
+}
+
+.meeting-title {
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+}
+
+.meeting-subtitle {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #ababab;
+}
+
+.meeting-icons {
+    padding-bottom: 41.5px;
+    padding-left: 172px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.meeting-icons__list {
+    display: inline-flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    /* position: absolute; */
+}
+
+/* .meeting-icons__list-icons:nth-child(1) {
+    background-size: 100%;
+    z-index: 1;
+    
+}
+
+.meeting-icons__list-icons:nth-child(2) {
+    background-size: 100%;
+    z-index: 2;
+    left: 48px;
+    top: -200px;
+}
+
+.meeting-icons__list-icons:nth-child(3) {
+    background-size: 100%;
+    z-index: 3;
+    left: 98px;
+}
+
+.meeting-icons__list-icons:nth-child(4) {
+    background-size: 100%;
+    z-index: 4;
+    left: 146px;
+}
+
+.meeting-icons__list-icons:nth-child(5) {
+    background-size: 100%;
+    z-index: 5;
+    left: 195px;
+} */
+
+.meeting-icons__list-people {
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color:#ababab;
+}
+
+.meeting-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 172px;
+    padding-bottom: 72px;
+}
+
+.meeting-text__title {
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+padding-bottom: 16px;
+}
+
+.meeting-text__desc {
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color:#ababab;
+max-width: 364px;
+}
+
+.meeting-text__desc {
+    padding-bottom: 8px;
+}
 
 .footer {
     font-family: 'Roboto', sans-serif;
