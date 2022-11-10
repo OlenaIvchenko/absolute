@@ -36,8 +36,16 @@ padding: 80px 0px 53px 172px;
     padding-right: 30px;
 }
 
+.acconts-list__container__img {
+    overflow: hidden;
+    min-height: 78px;
+    min-width: 78px;
+}
+
 .acconts-list__element__img {
     padding-bottom: 10px;
+    width: inherit;
+    height: inherit;
 }
 
 .acconts-list__element__name{
