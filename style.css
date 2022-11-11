@@ -86,9 +86,8 @@ color: #ababab;
 }
 
 .meeting-icons {
-    /* padding-bottom: 38px; */
     padding-left: 172px;
-    min-height: 80px;
+    min-height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -106,6 +105,8 @@ color: #ababab;
     left: 0px;
     top: -40px;
     list-style-type: none;
+    max-width: 62.48px;
+    max-height: 62.48px;
 }
 
 
