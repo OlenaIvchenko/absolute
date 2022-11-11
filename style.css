@@ -1,5 +1,244 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
+
+.header, .main {
+   font-family: 'Poppins', sans-serif;
+}
+
+.accounts-title {
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+padding: 80px 0px 53px 172px;
+}
+
+.accounts-list {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 0px 74px 177px;
+}
+
+.acconts-list__element {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.acconts-list__container__img {
+    overflow: hidden;
+    min-height: 78px;
+    min-width: 78px;
+}
+
+.acconts-list__element__img {
+    padding-bottom: 10px;
+    width: inherit;
+    height: inherit;
+}
+
+.acconts-list__element__name{
+font-size: 16px;
+font-weight: 500;
+line-height: 22px;
+text-align: center;
+color: #1F6A61;
+}
+
+.acconts-list__element__online-options {
+    position: absolute;
+}
+
+.acconts-list__element__icons {
+    position: relative;
+    right: -55px;
+    top: 60px;
+}
+
+.meeting-wrapper {
+    padding: 80px 0px 24px 172px;
+}
+
+.meeting-title {
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+}
+
+.meeting-subtitle {
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+color: #ababab;
+}
+
+.meeting-icons {
+    padding-left: 172px;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.meeting-icons__list {
+    display: inline-flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    position: relative;
+}
+
+.meeting-icons__list-icons {
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    list-style-type: none;
+    max-width: 62.48px;
+    max-height: 62.48px;
+}
+
+
+.meeting-icons__list-icons:nth-child(1) {
+    background-size: 100%;
+    z-index: 1;
+    
+}
+
+.meeting-icons__list-icons:nth-child(2) {
+    background-size: 100%;
+    z-index: 2;
+    left: 48px;
+}
+
+.meeting-icons__list-icons:nth-child(3) {
+    background-size: 100%;
+    z-index: 3;
+    left: 98px;
+}
+
+.meeting-icons__list-icons:nth-child(4) {
+    background-size: 100%;
+    z-index: 4;
+    left: 146px;
+}
+
+.meeting-icons__list-icons:nth-child(5) {
+    background-size: 100%;
+    z-index: 5;
+    left: 195px;
+}
+
+.meeting-icons__list-people {
+font-size: 12px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color:#ababab;
+position: relative ;
+left: 269px;
+}
+
+.meeting-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 172px;
+    padding-bottom: 72px;
+    padding-top: 32px;
+}
+
+.meeting-text__title {
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+padding-bottom: 16px;
+}
+
+.meeting-text__desc {
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color:#ababab;
+max-width: 364px;
+}
+
+.meeting-text__desc {
+    padding-bottom: 8px;
+}
+
+.footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-list {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 49px 58px 49px 59px; 
+}
+
+.container-list__block:not(:last-child) {
+margin-right: 32px;
+}
+
+.container-list__block {
+    position: relative;
+    width: 252px;
+    height: 232px;
+    padding: 64px 32px 40px 32px;
+    border-radius: 8px;
+}
+
+.container-list__block__vector {
+    position: absolute;
+    top: -18px;
+    right: 161px;
+}
+
+.container-list__block:nth-of-type(1){
+    background-color: #FFF6D5;
+}
+
+.container-list__block:nth-of-type(2) {
+    background-color: #EBDCF9; 
+}
+
+.container-list__block:nth-of-type(3) {
+    background-color: #DDF5FD; 
+}
+
+.container-list__block:nth-of-type(4) {
+    background-color: #DCF6E8; 
+}
+
+.container-list__block__headline {
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.container-list__block__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #746E8C;
+    letter-spacing: 0.02em;
+}
+
